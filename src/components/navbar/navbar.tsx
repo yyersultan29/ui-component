@@ -6,6 +6,7 @@ export const Navbar = () => {
             <div>Main</div>
             <div>Catalog</div>
             <div>Exit</div>
+            <button>OK</button>
         </nav>
     )
 }
