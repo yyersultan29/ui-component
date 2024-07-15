@@ -1,13 +1,9 @@
-import { FC, ReactNode } from "react"
+import { FC, ReactNode } from "react";
 
 interface ItemProps {
-    children: ReactNode
+  children: ReactNode;
 }
 
-export const Item: FC<ItemProps> = ({children}) => {
-    return (        
-        <div className="p-3 border-lg bg-gray-100 ">
-            {children}
-        </div>
-    )
-}
+export const Item: FC<ItemProps> = ({ children }) => {
+  return <div className="p-3 border-lg bg-gray-100 ">{children}</div>;
+};

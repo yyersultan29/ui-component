@@ -1,9 +1,3 @@
-
 export const Tooltip = () => {
-
-    return(
-        <div>
-            Tooltip
-        </div>
-    )
-}
+  return <div>Tooltip</div>;
+};
