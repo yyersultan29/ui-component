@@ -10,7 +10,7 @@ export const Container: FC<ContainerProps> = ({
   ...otherProps
 }) => {
   const size = 24;
-  const borderRadius = 12;
+  // const borderRadius = 12;
   return (
     <div {...otherProps} id={size + ""}>
       {icon && <div>{icon}</div>}
