@@ -1,13 +1,14 @@
-import { Item, Navbar } from "./components";
+import { Navbar } from './components';
+import Sidebar from './components/sidebar';
+import MazeGame from './components/bot';
 
 function App() {
   return (
-    <section>
+    <section style={{ background: '#dddd', padding: '20px' }}>
       <Navbar />
+      <Sidebar />
 
-      <Item>Items</Item>
-      <h1 className="text-3xl font-bold underline">Hello man </h1>
-      <button>Hello</button>
+      <MazeGame />
     </section>
   );
 }
