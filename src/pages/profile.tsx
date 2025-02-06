@@ -1,4 +1,5 @@
 import { useIsMobile } from '../hooks/useIsMobile';
+
 import { ProfilePageDesktop } from './desktop';
 import { ProfilePageMobile } from './mobile';
 
