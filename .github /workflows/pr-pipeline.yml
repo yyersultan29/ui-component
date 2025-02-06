@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - master # Change this to match your target branch
+    workflow_dispatch:
 
 jobs:
   build:
